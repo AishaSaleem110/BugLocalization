@@ -19,14 +19,14 @@ nltk.download('punkt')
 import nltk
 nltk.download('averaged_perceptron_tagger')
 ```
-2. Connect google colab with your google drive to access the project or you can also clone the repositsory.
+3. Connect google colab with your google drive to access the project or you can also clone the repositsory.
 ```
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
-3. Download the dataset for python based projects from https://github.com/muvvasandeep/BuGL and unzip it, upload the projects source code, .json files in the data directory of the  project. 
-4. Check the path of datasets in ``` /datasets.py``` module and change the value of the DATASET variable to choose different datasets.
-5. Run the main module after changing the base path for your google drive. Please note the following is my path project_folder/bug-localization/buglocalizerPython and you should change it to yours:
+4. Download the dataset for python based projects from https://github.com/muvvasandeep/BuGL and unzip it, upload the projects source code, .json files in the data directory of the  project. 
+5. Check the path of datasets in ``` /datasets.py``` module and change the value of the DATASET variable to choose different datasets.
+6. Run the main module after changing the base path for your google drive. Please note the following is my path project_folder/bug-localization/buglocalizerPython and you should change it to yours:
 ```
 !python /content/gdrive/MyDrive/project_folder/bug-localization/buglocalizerPython/main.py
 ```
