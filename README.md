@@ -5,7 +5,9 @@
 
 #Follow the instructions to run the project on google colab
 
-1. On google colab install the following dependencies.
+1. Download the code from github and upload it on your google drive.Alternatively, you can directly clone it on google colab.
+
+2. On google colab install the following dependencies.
 
 ```
 !pip install xmltodict javalang pygments inflection nltk numpy scipy scikit-learn spacy
@@ -23,8 +25,8 @@ from google.colab import drive
 drive.mount('/content/gdrive')
 ```
 3. Download the dataset for python based projects from https://github.com/muvvasandeep/BuGL and unzip it, upload the projects source code, .json files in the data directory of the  project. 
-4. Check the path of datasets in ``` buglocalizerPython/datasets.py``` module and change the value of the DATASET variable to choose different datasets.
-5. Run the main module after changing the base path for your google drive
+4. Check the path of datasets in ``` /datasets.py``` module and change the value of the DATASET variable to choose different datasets.
+5. Run the main module after changing the base path for your google drive. Please note the following is my path project_folder/bug-localization/buglocalizerPython and you should change it to yours:
 ```
 !python /content/gdrive/MyDrive/project_folder/bug-localization/buglocalizerPython/main.py
 ```
